@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome!</div>
 
                 <div class="panel-body">
-                    <p>Hi Zoe and or David! (Maybe Derek).</p>
+                    <p>Hi Zoe and or David! (Maybe Derek, or anyone else reviewing this excercise ).</p>
                     <p>My name is Paul. We haven't met yet (except for you Derek, happy baby!).</p>
                     <p>I am extremely excited to be considered to be part of your team. I love programming and have yet to be part of a truley elite team, which you are.</p>
                     <p>I hope reading my code doesn't cause any wtf's or eye squints. If it does please don't hesitate to let me know. I have been around the block, but still have a LOT to learn.</p>
