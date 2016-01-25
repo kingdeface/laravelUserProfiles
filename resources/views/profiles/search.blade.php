@@ -1,4 +1,4 @@
-<div class="search-form  col-xs-6 col-md-4 pull-right">
+<div class="search-form  col-xs-12 col-md-4 pull-right">
     {!! Form::open(array('route' => 'profiles.search', 'class'=>'form  searchform')) !!}
     <div class="col-xs-9">
         {!! Form::text('search', null, array('required','class'=>'form-control ','placeholder'=>'Search by name...')) !!}

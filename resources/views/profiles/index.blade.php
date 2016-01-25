@@ -11,7 +11,7 @@
             @include('profiles.search')
             <div class="clearfix"></div>
             @foreach ($user_profiles as $user_profile)
-                <div class="col-xs-6 col-sm-4">
+                <div class="col-xs-12 col-sm-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">{{$user_profile->name}}</div>
                         <a href="{{ route('profiles.show', ['id' => $user_profile->id]) }}">

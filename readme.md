@@ -17,7 +17,7 @@ name search field.
 composer install
 ```
 
-2. Rename .env.example in the root to .env and change the database settings to match yours and regenerate the key
+2. Rename .env.example in the root to .env , change the database settings to match yours and regenerate the key
 ```
 php artisan key:generate
 ```
