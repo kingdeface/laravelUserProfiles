@@ -8,7 +8,7 @@ use Closure;
 class AuthUser
 {
     /**
-    * Handle an incoming request.
+    * Handle an incoming request. Denies the user access to the profiles if not admin
     *
     * @param  \Illuminate\Http\Request  $request
     * @param  \Closure  $next
@@ -19,7 +19,7 @@ class AuthUser
         $params = $request->route()->parameters();
 
         $user_id = $params['profiles'];
-        
+
         if ($request->user()->isAdmin()) {
             return $next($request);
         }
@@ -30,11 +30,5 @@ class AuthUser
             return redirect('/');
         }
 
-        //for Non model binding
-        if ($user_id == Auth::id()) {
-            return $next($request);
-        } else {
-            return redirect('/');
-        }
     }
 }
