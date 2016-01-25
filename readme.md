@@ -12,26 +12,31 @@ name search field.
 
 ## Setup
 
-1. Install the project
+Clone the project
+```
+git clone git@github.com:paulmaclean/laravelUserProfiles.git
+```
+
+cd into \laravelUserProfiles and install the project
 ```
 composer install
 ```
 
-2. Rename .env.example in the root to .env , change the database settings to match yours and regenerate the key
+Rename .env.example in the root to .env , change the database settings to match yours and regenerate the key
 ```
 php artisan key:generate
 ```
 
-3. Initialize the database run the migration
+Initialize the database run the migration
 ```
 php artisan migrate
 ```
-4. Seed the Database (will seed the admin user and create 30 users with profiles)
+Seed the Database (will seed the admin user and create 30 users with profiles)
 ```
 php artisan db:seed
 ```
 
-5. Serve it up (alternatively run on homestead) and visit http://localhost:8000
+Serve it up (alternatively run on homestead) and visit http://localhost:8000
 ```
 php artisan serve
 ```
