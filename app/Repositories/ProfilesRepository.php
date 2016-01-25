@@ -8,12 +8,8 @@ use App\Profile;
 class ProfilesRepository
 {
     protected $allowable_inputs = array('location', 'bio', 'twitter_username', 'github_username');
-    /**
-    * Get the profile info for a given user.
-    *
-    * @param  User  $user
-    * @return Collection
-    */
+
+
     public function saveProfile($request)
     {
         $user_id = $request->user()['id'];
@@ -35,12 +31,6 @@ class ProfilesRepository
         $user->profile->fill($input)->save();
     }
 
-    /**
-    * Creates an empty profile.
-    *
-    * @param  int $id
-    * @return Profile
-    */
     public function createEmpty($user_id)
     {
         $user = $this->getUserWithProfileByUserID($user_id);
@@ -48,12 +38,6 @@ class ProfilesRepository
         return $user->profile();
     }
 
-    /**
-    * Fetch user
-    *
-    * @param $id
-    * @return mixed
-    */
     public function getUserWithProfileByUserID($id)
     {
         return User::with('profile')->findOrFail($id);
