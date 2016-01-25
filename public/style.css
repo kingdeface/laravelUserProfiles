@@ -1,0 +1,124 @@
+body {
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+    color: #212326;
+}
+body .panel-default>.panel-heading {
+    color: #212326;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+}
+a {
+    color: #777;
+}
+a:hover {
+    color: #777;
+}
+.btn-default {
+    background-color: #000;
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+.alert-success {
+    text-align: center;
+}
+.btn, .dropdown-menu {
+    font-size: 18px;
+}
+.fa-btn {
+    margin-right: 6px;
+}
+.navbar-default {
+    background-color: #000;
+    border: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-toggle {
+    border-radius: 0px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: #eee;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: #fff;
+}
+.navbar-brand {
+    padding: 2px 15px;
+}
+.navbar-brand img {
+    height: 40px;
+}
+@media screen and (min-width:768px) {
+    .navbar {
+        border-radius: 0px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background-color: #000;
+        border: 0px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+        transition: all 300ms ease-in-out;
+    }
+    .index-thumb {
+        max-height: 240px;
+        width: 100%;
+    }
+}
+.dashboard-action {
+    font-size: 16px;
+}
+.dashboard-action .fa {
+    font-size: 17px;
+    color: #000;
+    padding-right: 5px;
+    line-height: 6px;
+    padding-top: 10px;
+    position: relative;
+    top: 1px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #000;
+    border-color: #337ab7;
+}
+.search-form {
+    margin: 20px 0px;
+    text-align: right;
+}
+.search-form div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.search-form input[type=text] {
+    margin-top: 3px;
+}
+.index-body {
+    min-height: 220px;
+}
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+.error-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.error-actions .btn {
+    margin-right: 10px;
+}
