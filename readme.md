@@ -10,7 +10,7 @@ name search field.
 
 
 
-## Setup
+## Setup 
 
 To initialize the database run the migration
 ```
