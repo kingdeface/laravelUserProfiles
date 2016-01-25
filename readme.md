@@ -36,7 +36,7 @@ Seed the Database (will seed the admin user and create 30 users with profiles)
 php artisan db:seed
 ```
 
-Serve it up (alternatively run on homestead) and visit http://localhost:8000
+Serve it up and visit http://localhost:8000
 ```
 php artisan serve
 ```
