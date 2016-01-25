@@ -27,7 +27,7 @@
                     @endif
                     <br/>
                     @if($user->profile->bio)
-                        <label>Bio: </label> {{ str_limit( $user->profile['bio'], $limit = 50, $end = '...') }}
+                        <label>Bio: </label> {{  $user->profile['bio'] }}
                     @endif
                     <br/>
 
