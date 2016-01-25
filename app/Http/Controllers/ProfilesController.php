@@ -20,16 +20,14 @@ class ProfilesController extends Controller
     }
 
     /**
-    * Show the profile for the given user.
+    * Returns a list of all users with thier profile information.
     *
     * @param  int $id
     * @return Response
     */
     public function index()
     {
-
         $user_profiles = $this->profiles->getAll();
-
         return view('profiles.index')->with('user_profiles', $user_profiles);
     }
 
@@ -62,7 +60,6 @@ class ProfilesController extends Controller
     *
     * @param $request
     * @return mixed
-    * @throws Laracasts\Validation\FormValidationException
     */
     public function update(Request $request)
     {
@@ -90,9 +87,7 @@ class ProfilesController extends Controller
 
         // Gets the query string from our form submission
         $query = $request->input('search');
-
         $user_profiles = $this->profiles->searchAll($query);
-
         return view('profiles.index')->with('user_profiles', $user_profiles);
 
     }
