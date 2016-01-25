@@ -10,12 +10,12 @@
                 <div class="panel-body">
                     <p>Hi Zoe and or David! (Maybe Derek).</p>
                     <p>My name is Paul. We haven't met yet (except for you Derek, happy baby!).</p>
-                    <p>I am extremely excited to be considered to be part of your team. I love programming and have yet to be part of a truley elite team, which you guys are.</p>
+                    <p>I am extremely excited to be considered to be part of your team. I love programming and have yet to be part of a truley elite team, which you are.</p>
                     <p>I hope reading my code doesn't cause any wtf's or eye squints. If it does please don't hesitate to let me know. I have been around the block, but still have a LOT to learn.</p>
-                    <p>That's it. I hope we get to know eachother in the near future.</p>
+                    <p>That's it. I hope we get to know each other in the near future.</p>
                     <p>-Paul</p>
 
-                    
+
                 </div>
             </div>
         </div>
